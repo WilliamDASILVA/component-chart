@@ -1,10 +1,12 @@
 apiVersion: v1
 entries:
-  test:
-  - created: 2016-11-18T15:05:51.078570269-07:00
-    description: Deploy a basic Alpine Linux pod
-    digest: f44f733d69008e86c3989d3b094a5e6151d168921a09eda61c0897472e2f0399
-    home: https://k8s.io/helm
-    name: test
-    version: 0.3.0
-generated: 2016-11-18T15:05:51.077257234-07:00
+  component-chart:
+  - apiVersion: v1
+    created: "2020-12-21T14:50:34.269195+01:00"
+    description: A general purpose helm chart for deploying components of an application
+    digest: 61a9e808354cca8fdf13ac3e13eda613ee653e3d37bcd0e99457d2d80c7dda12
+    name: component-chart
+    urls:
+    - component-chart-0.0.0.tgz
+    version: 0.0.0
+generated: "2020-12-21T14:50:34.268544+01:00"
